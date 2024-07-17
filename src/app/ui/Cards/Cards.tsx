@@ -1,6 +1,5 @@
-import React from 'react';
-import { Item } from '../lib/definitions';
-import PageCard from '../ui/Card/Card';
+import { Item } from '@/app/lib/definitions';
+import PageCard from '@/app/ui/Card/Card';
 
 const Cards = ({ items }: { items: Item[] }) => {
   return (

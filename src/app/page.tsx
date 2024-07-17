@@ -1,8 +1,6 @@
 import Header from '@/app/ui/Header/Header';
-import { Card, CardBody, CardHeader } from '@nextui-org/card';
-import { Divider } from '@nextui-org/react';
 import { fetchItems } from './lib/data';
-import Cards from './Cards/Cards';
+import Cards from './ui/Cards/Cards';
 
 const Home = async () => {
   const items = await fetchItems();
